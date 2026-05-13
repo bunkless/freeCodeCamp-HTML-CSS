@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* body{
   background: rosybrown;
   font-family: Arial, sans-serif;
@@ -463,4 +464,412 @@ button{
 
 button:hover{
   background-color: #023e8a;
+=======
+/* body{
+  background: rosybrown;
+  font-family: Arial, sans-serif;
+}
+
+.business-card{
+  background: #FCEBE8;
+  width:300px;
+  padding:20px;
+  margin-top: 100px;
+  text-align:center;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-image{
+  max-width: 100%;
+}
+
+p{
+  margin: 5px 0;
+}
+
+a{
+  text-decoration: none;
+} */
+
+
+
+/* 2.  Designed a Gretting Card */
+
+/* body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  text-align: center;
+  background-color: brown;
+}
+
+.card {
+  background-color: white;
+  max-width: 400px;
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px gray;
+  transition: transform 0.3s, background-color 0.3s ease
+}
+
+.card:hover {
+  background-color: khaki;
+  transform: scale(1.1);
+}
+
+h1::before {
+  content: "🥳 ";
+}
+
+h1::after {
+  content: " 🥳";
+}
+
+.message {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.card-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-links a {
+  text-decoration: none;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: midnightblue;
+  transition: background-color 0.3s ease;
+}
+
+.card-links a:hover {
+  background-color: orangered;
+}
+
+.card-links a:active {
+  background-color: midnightblue;
+}
+
+.card-links a:focus {
+  outline: 2px solid yellow;
+}
+
+.card-links a:visited {
+  color: crimson;
+}
+
+section {
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  display: none;
+}
+
+section:target{
+  display: block;
+}
+
+section:hover{
+  transform: skewX(10deg);
+}
+ */
+
+
+/*  3.Parent Teacher Conference Form  */
+
+/* body {
+  background-color: MidnightBlue;
+  color: whitesmoke;
+}
+
+.container {
+    background-color: #ffffff1a;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    box-shadow: 0 5px 15px black;  
+}
+
+.center {
+  text-align: center;
+}
+
+.description {
+  font-size: 1.2rem;
+}
+
+fieldset {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+fieldset legend {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+label:not(.contact-method) {
+  display: block;
+  margin: 10px 0;
+}
+
+input:not(.contact-method-radio-btn),
+textarea {
+  background-color: #ffffff1a;
+  width: 95%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+input,
+input::placeholder,
+textarea {
+  color: whitesmoke;
+}
+
+
+.contact-method-radio-btn {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  vertical-align: bottom;
+}
+
+.contact-method-radio-btn::before {
+  display: block;
+  content: " ";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate(3px, 3px) scale(0);
+  transition: all 0.3s ease-in;
+}
+
+.contact-method-radio-btn:checked::before {
+  transform: translate(3px, 3px) scale(1);
+  background-color: lightgreen;
+}
+
+.submit-btn {
+  cursor: pointer;
+  background-color: royalblue;
+  color: whitesmoke;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  display: block;
+  margin: auto;
+}
+ */
+
+
+ /* Job Application Form
+
+ body{
+  background-color: #354f52;
+   font-family: Arial;
+}
+
+.container{
+  background-color: #ffffff;
+  width: 800px;
+  height:auto;
+  margin: 30px auto;
+  border-radius: 15px;
+}
+
+h1{
+  font-size: 38px;
+  padding: 30px;
+  text-align: center;
+}
+
+label {
+  margin: 30px;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+input:first-of-type {
+  border: 2px solid blue;
+}
+
+input{
+  margin: 0 30px;
+  width: 80%;
+  height: 30px;
+  border-radius: 8px;
+  border-color: #000;
+}
+
+
+
+select{
+  width:81%;
+  height:30px;
+  border-radius: 8px;
+  margin: 0 30px;
+  font-size: 16px;
+}
+
+input:hover,
+select:hover{
+  border: 3px solid #000;
+}
+
+input:focus,
+textarea:focus{
+  background-color: #e9ecef;
+  border: 2px solid #6c757d; 
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid{
+  border: 2px solid red;
+}
+
+input:valid,
+select:valid,
+textarea:valid{
+  border: 2px solid green;
+}
+
+
+fieldset{
+  margin: 30px 30px;
+  width: 78%;
+  height: 40px;
+  border-radius: 15px;
+}
+
+legend{
+  font-size: 18px;
+}
+
+.radio-group input{
+  width: 30px;
+  height: 18px;
+  margin: 5px 0;
+}
+
+.radio-group label{
+  display: inline;
+  margin: 5px 0;
+}
+
+.radio-group input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none; 
+  width: 18px;
+  height: 18px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
+  background-color: #fff;
+}
+
+.radio-group input[type="radio"]:checked {
+  border: 2px solid green;
+  background-color: green;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+.radio-group input[type="radio"]:checked + label {
+    color: green;
+}
+
+
+textarea{
+  width: 81%;
+  height: 100px;
+  margin: 0 30px;
+  border-radius: 5px;
+}
+
+button{
+  display:block;
+  width: 200px;
+  margin: 30px auto;
+  background-color: #354f52;
+  color: #fff;
+  height: 50px;
+}
+
+button:hover{
+  transform: scale(1.02);
+  background-color: #343a40; 
+} */
+
+
+
+
+
+/* Colored Boxes
+
+body{
+  background-color: #f4f4f4;
+  font-family: Arial;
+}
+
+h1{
+  text-align: center;
+  margin: 50px;
+}
+
+.color-grid{
+  display: flex;
+  margin: 20px 100px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.color-box{
+  min-width: 100px;
+  min-height: 100px;
+  margin: 40px;
+}
+
+.color1{
+  background-color: #ff0054;
+}
+
+.color2{
+  background-color: rgb(233, 145, 200);
+}
+
+.color3{
+  background-color: yellow;
+}
+
+.color4{
+  background-color: hsl(180, 80%, 50%);
+}
+
+.color5{
+  background-color: hsla(240, 80%, 10%, 0.8);
+>>>>>>> a21a7d64773ed37cbb72d9200801b80d53acd137
 } */

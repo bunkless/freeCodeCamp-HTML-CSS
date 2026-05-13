@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- 1. Designed a Business Card -->
  
 
@@ -261,4 +262,235 @@
 
 </body>
 
+=======
+<!-- 1. Designed a Business Card -->
+ 
+
+<!--
+<head>
+    <meta charset="utf-8">
+    <title>Business Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="business-card">
+<img class="profile-image" src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" alt="flower">
+<p class="full-name">Bahna David Beniamin</p>
+<p class="designation">Full-Stack Developer</p>
+<p class="company">Bixag</p>
+<hr>
+<p>bahna.benu@yahoo.com</p>
+<p>+40729650223</p>
+<a href="https://github.com/bunkless" class="portfolio-link">Portfolio</a>
+<hr>
+<div class="social-media">
+    <h2>Connect with me</h2>
+    <a href="#">Twitter</a>
+    <a href="https://www.linkedin.com/in/david-beniamin-bahna/?locale=ro">LinkedIn</a>
+    <a href="https://github.com/bunkless">GitHub</a>
+</div>
+</div>
+</body>
+-->
+
+
+ <!--2. Designed a Gretting Card 
+ 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting Card</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="card" id="greeting-card">
+      <h1>Happy Birthday!</h1>
+      <p class="message">
+        Wishing you all the happiness and joy on your special day!
+      </p>
+      <div class="card-links">
+        <a href="#send" class="send-link">Send Card</a>
+        <a href="#share" class="share-link">Share on Social Media</a>
+      </div>
+  	</div>
+    <section id="send">
+      <h2>Sending your card...</h2>
+      <p>Card successfully sent to your recipient!</p>
+    </section>
+    <section id="share">
+      <h2>Sharing your card...</h2>
+      <p>Your card was shared on social media!</p>
+    </section>
+  </body>
+
+-->
+
+
+
+<!-- 3.Parent Teacher Conference Form -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Teacher Conference Form</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+  <main class="container">
+    <h1 class="title center">Parent Teacher Conference Form</h1>
+    <p class="description center">Please fill out the form below to help schedule your parent-teacher conference.</p>
+
+     <form>
+        <fieldset>
+          <legend>Student Information</legend>
+          <label for="student-name">Full Name: </label>
+          <input
+            type="text"
+            name="student-name"
+            id="student-name"
+            required
+            placeholder="E.g., Jane Doe"
+          />
+
+          <label for="grade">Student Grade: </label>
+          <input
+            type="number"
+            name="grade"
+            id="grade"
+            required
+            placeholder="E.g., 4"
+          />
+        </fieldset>
+        
+        <fieldset>
+          <legend>Parent/Guardian Information</legend>
+          <label for="parent-name">Parent/Guardian Name: </label>
+          <input
+            type="text"
+            name="parent-name"
+            id="parent-name"
+            required
+            placeholder="E.g., Nancy Doe"
+          />
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferred Contact Method</legend>
+          <label class="contact-method" for="email">Email: </label>
+          <input
+            id="email"
+            class="contact-method-radio-btn"
+            type="radio"
+            name="contact-method"
+            value="email"
+            checked
+          />
+
+          <label class="contact-method" for="phone">Phone: </label>
+          <input
+            id="phone"
+            class="contact-method-radio-btn"
+            type="radio"
+            name="contact-method"
+            value="phone"
+          />
+        </fieldset>
+
+        <fieldset>
+          <legend>Additional Notes</legend>
+          <label for="notes"
+            >Any specific concerns or topics you'd like to discuss?</label
+          >
+          <textarea id="notes" name="notes" rows="4" cols="50"></textarea>
+        </fieldset>
+
+        <button class="submit-btn" type="submit">Submit Form</button>
+      </form>
+  </main>
+  </body>
+</html> -->
+
+
+<!-- Job Application Form
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Job Application Form</h1>
+    <form>
+        <label for="name">Please enter your Last Name:</label> 
+        <input type="text" name="name" id="name" placeholder="E.g., Bahna" required>
+
+         <label for="first-name">Please enter your First Name:</label> <input type="text" name="first-name" id="first-name" placeholder="E.g., David Benaimin" required>
+
+         <label for="email">Please enter your Email: </label>
+         <input type="email" id="email" name="email" placeholder="E.g., bahna.david@yahoo.com" required> 
+
+         <label for="position">Position: </label>
+
+         <select id="position" name="position" required>
+            <option value="">--Please choose an position--</option>
+            <option value="manager">Manager</option>
+            <option value="engineer">Engineer</option>
+            <option value="developer">Developer</option>
+         </select>
+        
+        <fieldset class="radio-group" >
+            <legend>Availability:</legend>
+
+            <input id="full-time" type="radio" name="availability" value="full-time" required>
+            <label for="full-time">Full-Time</label>
+
+            <input id="part-time" type="radio" name="availability" value="part-time" required>
+             <label for="part-time">Part-Time</label>
+        </fieldset>
+         
+        <label for="message">Why do you want this job?</label>
+        <textarea id="message" placeholder="Write your motivation" required></textarea>
+       
+       <button type="submit">Apply for this job</button> 
+    </form>
+</div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+<!-- Colored Boxes
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colored Boxes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Different types of styling backgrounds</h1>
+<div class="color-grid">
+    <div class="color-box color1"></div>
+    <div class="color-box color2"></div>
+    <div class="color-box color3"></div>
+    <div class="color-box color4"></div>
+    <div class="color-box color5"></div>
+</div>
+</body>
+>>>>>>> a21a7d64773ed37cbb72d9200801b80d53acd137
 </html> -->
