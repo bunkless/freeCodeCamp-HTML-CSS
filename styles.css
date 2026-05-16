@@ -873,3 +873,71 @@ h1{
   background-color: hsla(240, 80%, 10%, 0.8);
 >>>>>>> a21a7d64773ed37cbb72d9200801b80d53acd137
 } */
+
+
+/* Feature Selection Page
+body{
+  font-family: Arial;
+  background-color: #f0f0f0;
+  height: 100vh;
+}
+
+h1{
+  text-align: center;
+  margin: 50px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.feature-card-container{
+  border: 2px solid #adb5bd;
+  border-radius: 20px;
+  width: 400px;
+  height: 200px;
+}
+
+input{
+  appearance: none;
+  margin: 10px 20px 10px auto;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #adb5bd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+}
+
+input[type="checkbox"]:checked{
+  background-color: #fb8500;
+  border: 1px solid #fb8500;
+}
+
+input[type="checkbox"]:checked::after{
+  content: "✓";
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h2, p{
+  text-align:center;
+}
+
+button{
+  display: block;
+  width: 150px;
+  height:50px;
+  border: 2px solid #adb5bd;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
+button:hover{
+  box-shadow: 0 0 8px #fb8500;
+} */
