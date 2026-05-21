@@ -988,3 +988,121 @@ Confidential Email Page
   transform: rotate(20deg);
   margin-left: 180px;
  } */
+
+
+
+ body{
+  background-color: #f7e1d7;
+  font-family: "Playfair Display", serif;
+}
+
+#playing-cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.card{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  margin: 40px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.left{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.left h3{
+  margin: 10px auto 0 5px;
+  font-size: 35px;
+}
+
+.left span{
+  margin: 0 auto 0 5px;
+  font-size: 35px;
+}
+
+
+.middle span{
+  font-size: 80px;
+}
+
+.right h3{
+  margin: 0 5px 10px auto;
+  font-size: 35px;
+  transform: rotate(180deg);
+}
+
+.right span{
+  margin: 0 10px 5px 0;
+  font-size: 35px;
+  transform: rotate(180deg);
+}
+
+.color-red{
+  color: red;
+}
+
+.seven{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;;
+}
+
+.seven .heart1{
+  order: 0;
+  flex-grow: 1;
+}
+
+.seven .heart2{
+  order: 1;
+  color: #000;
+}
+
+.seven .heart3{
+  order: 2;
+  color: #000;
+}
+
+.seven .heart4{
+  order: 3;
+  color: #000;
+}
+
+.seven .heart5{
+  order: 4;
+  color: #000;
+}
+
+.seven .heart6{
+  order: 5;
+  color: #000;
+}
+
+.seven .heart7{
+  order: 6;
+  color: #000;
+}
