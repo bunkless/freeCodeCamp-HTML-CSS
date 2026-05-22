@@ -991,7 +991,10 @@ Confidential Email Page
 
 
 
- body{
+
+ /* Playing Cards
+
+body{
   background-color: #f7e1d7;
   font-family: "Playfair Display", serif;
 }
@@ -1025,6 +1028,8 @@ Confidential Email Page
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .right{
@@ -1065,44 +1070,14 @@ Confidential Email Page
   color: red;
 }
 
-.seven{
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: left;
-  align-items: center;;
+
+.row{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 32px;
 }
 
-.seven .heart1{
-  order: 0;
-  flex-grow: 1;
-}
-
-.seven .heart2{
-  order: 1;
-  color: #000;
-}
-
-.seven .heart3{
-  order: 2;
-  color: #000;
-}
-
-.seven .heart4{
-  order: 3;
-  color: #000;
-}
-
-.seven .heart5{
-  order: 4;
-  color: #000;
-}
-
-.seven .heart6{
-  order: 5;
-  color: #000;
-}
-
-.seven .heart7{
-  order: 6;
-  color: #000;
-}
+.reverse{
+   transform: rotate(180deg);
+} */
