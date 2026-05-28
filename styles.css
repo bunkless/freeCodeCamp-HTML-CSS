@@ -1138,3 +1138,117 @@ html{
   font-weight: bold;
   font-size: 2em;
 } */
+
+
+
+
+
+/* House Painting CSS
+
+
+body{
+    background-image:  linear-gradient( #2dc7ff 50%, #8ac926 50%);
+}
+
+#house{
+  position: relative;
+  margin: 100px auto;
+  width: 500px;
+  height: 400px;
+  background-color: #e85d04;
+  border: 4px solid #ffa200;
+}
+
+#chimney,
+#roof,
+#window-1,
+#window-2,
+#door{
+  position: absolute;
+}
+
+#chimney{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 5px;
+  width: 110px;
+  height: 45px;
+  background-color: #d00000;
+  top: -50px;
+  right: 80px;
+  border: 2px solid #000;
+}
+
+.cube{
+  width: 22px;
+  height: 8px;
+  border: 1px solid #fff;
+}
+
+#roof{
+  width: 500px;
+  height: 150px;
+  background-color: #6a040f;
+  border: 2px solid #000;
+}
+
+.roof-border{
+  width: 500px;
+  height: 25px;
+  border-bottom: 2px solid #000;
+}
+
+#window-1{
+  width: 90px;
+  height: 80px;
+  background-color: #d9ed92;
+  border: 6px solid #ffa200;
+  top: 180px;
+  left: 60px;
+}
+
+#window-2{
+  width: 90px;
+  height: 80px;
+  background-color: #d9ed92;
+  top: 180px;
+  right: 60px;
+   border: 6px solid #ffa200;
+}
+
+.first-window{
+  width: 42px;
+  height: 80px;
+  border-right: 6px solid #ffa200;
+}
+
+#door{
+  width: 120px;
+  height: 170px;
+  background: #ced4da;
+  border: 6px solid #ffa200;
+  bottom: 0;
+  left: 183px;
+}
+
+.doorknob{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 10px;
+  right: 10px;
+  top: 60px;
+}
+
+.welcome{
+  position: absolute;
+  width: 120px;
+  height: 60px;
+  background-color: grey;
+  bottom: -70px;
+  left: 190px;
+  transform: rotateZ(-10deg);
+} */
