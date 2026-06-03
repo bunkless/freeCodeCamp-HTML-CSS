@@ -1159,15 +1159,9 @@ body{
   border: 4px solid #ffa200;
 }
 
-#chimney,
-#roof,
-#window-1,
-#window-2,
-#door{
-  position: absolute;
-}
 
 #chimney{
+  position: absolute;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -1176,9 +1170,10 @@ body{
   width: 110px;
   height: 45px;
   background-color: #d00000;
-  top: -50px;
+  top: -45px;
   right: 80px;
   border: 2px solid #000;
+  z-index: -1;
 }
 
 .cube{
@@ -1188,6 +1183,7 @@ body{
 }
 
 #roof{
+  position: absolute;
   width: 500px;
   height: 150px;
   background-color: #6a040f;
@@ -1201,6 +1197,7 @@ body{
 }
 
 #window-1{
+  position: absolute;
   width: 90px;
   height: 80px;
   background-color: #d9ed92;
@@ -1210,6 +1207,7 @@ body{
 }
 
 #window-2{
+  position: absolute;
   width: 90px;
   height: 80px;
   background-color: #d9ed92;
@@ -1225,6 +1223,7 @@ body{
 }
 
 #door{
+  position: absolute;
   width: 120px;
   height: 170px;
   background: #ced4da;
@@ -1247,8 +1246,15 @@ body{
   position: absolute;
   width: 120px;
   height: 60px;
-  background-color: grey;
+  background-color: #083d77;
   bottom: -70px;
   left: 190px;
   transform: rotateZ(-10deg);
+} 
+
+h4{
+  text-align: center;
+  color: white;
+  margin: 15px auto;
+  font-size: 24px;
 } */
