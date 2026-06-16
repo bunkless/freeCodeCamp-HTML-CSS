@@ -1258,3 +1258,103 @@ h4{
   margin: 15px auto;
   font-size: 24px;
 } */
+
+
+
+
+
+
+
+
+/* Book Inventory Table
+
+
+body{
+  background-color: #f8f9fa;
+  font-family: sans-serif;
+}
+
+h1{
+  text-align: center;
+  margin: 30px auto;
+}
+
+table{
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+thead{
+  background-image: linear-gradient(to bottom, #62b6cb 30%, #168aad);
+}
+
+
+td, th{
+  padding: 10px;
+  text-align:center;
+}
+
+tr[class="read"]{
+  background-image: linear-gradient(to bottom, #95d5b2 10%, #90be6d);
+}
+
+tr[class="to-read"]{
+  background-image: linear-gradient(to bottom, #ffea00 10%, #ffc300);
+}
+
+tr[class="in-progress"]{
+  background-image: linear-gradient(to bottom, #a11d33 10%, #e01e37);
+}
+
+span{
+  display: inline-block;
+}
+
+tr[class="to-read"]  span[class="status"]{
+  border: 1px solid #4e0000;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #ee9b00 10%, #ca6702);
+}
+
+tr[class="read"]  span[class="status"]{
+  border: 1px solid #4e0000;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #9ef01a 10%, #70e000);
+}
+
+
+tr[class="in-progress"] span[class="status"]{
+  border: 1px solid #4e0000;
+  border-radius: 10px;
+  background-image: 
+  linear-gradient(to bottom, #941b0c 10%, #d62828);
+}
+
+
+span[class="status"],
+span[class^="rate"] {
+  height: 20px;;
+  width: 90px;
+  padding: 5px;
+}
+
+span[class^="rate"] > span{
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 5px;
+  height: 15px;
+  width: 15px;
+  background-color: white;
+}
+
+span[class~="one"] :first-child{
+  background-image: linear-gradient(#b56576 10%, #e56b6f);
+}
+
+span[class~="two"] :nth-child(-n+2){
+  background-image: linear-gradient(#b56576 10%, #e56b6f);
+}
+
+span[class~="three"] span{
+  background-image: linear-gradient(#b56576 10%, #e56b6f);
+} */
