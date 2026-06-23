@@ -1473,3 +1473,12 @@ table tbody tr:first-child td {
     var(--color5) 84% 100%
   );
 } */
+
+
+
+.newspaper-layout{
+  display: grid;
+  grid-template-areas: 
+  title title title,
+  
+}
